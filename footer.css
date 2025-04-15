@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+footer{
+    background-color: black;
+    color: gray;
+    padding: 5%;
+}
+footer #foot h1,h2{
+    color: white;
+    margin-bottom: 30px;
+}
+footer #foot p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+footer #foot a{
+    text-decoration: none;
+    color: gray;
+}
+footer #foot a:hover{
+    cursor: pointer;
+    color: darkblue;
+}
+footer #foot{
+    display: flex;
+    margin-bottom: 70px;
+}
+footer #foot>div:first-child{
+    width: 50%;
+}
+footer #foot>div:last-child{
+    width: 50%;
+    display: flex;
+    gap: 100px;
+}
+footer #foot i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+footer #foot i:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+footer #foot div .pgh{
+    width: 72%;
+    margin-bottom: 30px;
+}
+footer .copy hr{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 40px;
+}
+@media (max-width: 900px){
+    footer #foot{
+        display: flex;
+        flex-direction: column;
+    }
+    footer #foot>div:first-child{
+        width: 100%;
+    }
+    footer #foot>div:last-child{
+        width: 100%;
+        flex-direction: column;
+    }
+    footer #foot h1,h2{
+        font-size: 1.5rem;
+    }
+    footer .copy{
+        width: 100%;
+    }
+}

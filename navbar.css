@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 80px;
+    padding: 0 5%;
+    box-shadow: 2px 2px 5px gray;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    height: fit-content;
+}
+nav #contact{
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+nav #contact:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+ul li a{
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo h3 span{
+    color: darkblue;
+}
+#menu{
+    display: none;
+}
+#sidebar{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    display: none;
+}
+#sidebar .sidebar-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+#sidebar>div{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    padding: 5%;
+}
+#sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+}
+#sidebar ul a{
+    color: gray;
+}
+#sidebar #close{
+    color: darkblue;
+    font-size: 30px;
+}
+@media (max-width: 900px){
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    nav{
+        width: auto;
+    }
+    nav ul{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    #menu i{
+        font-size: 30px;
+    }
+    nav #contact{
+        display: none;
+    }
+    #sidebar{
+        z-index: 1;
+    }
+}
