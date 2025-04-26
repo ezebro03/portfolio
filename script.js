@@ -1,6 +1,7 @@
 const menuIcon = document.getElementById('menu')
 const closeButton = document.getElementById('close')
 const sideBar = document.getElementById('sidebar')
+const body = document.querySelector('body')
 
 menuIcon.addEventListener('click', function () {
     sideBar.style.display = 'block'

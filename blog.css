@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    max-width: 100%;
+}
+#latest{
+    padding: 7% 5%;
+    color: gray;
+}
+#latest div h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700px;
+}
+#latest div p{
+    text-align: center;
+    margin: 15px 0;
+    width: 97%;
+}
+#latest .blog{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+#latest .blog div{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+    border-radius: 10px;
+    transition: transform;
+    transition-duration: 1s;
+}
+#latest .blog div:hover{
+    transform: scale(1.1);
+}
+#latest .blog div .tr{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    float: right;
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#latest .blog div img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0px 0px;
+}
+#latest .blog div p{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300px;
+}
+#latest .blog div h2{
+    color: black;
+    padding-left: 20px;
+}
+#latest .blog div p a{
+    text-decoration: none;
+    color: blue;
+}
+
+@media (max-width: 600px){
+    body{
+        max-width: 100%;
+    }
+    #latest div h1{
+        font-size: 2rem;
+    }
+    #latest div p{
+        width: 85%;
+    }
+    #latest .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    #latest .blog div{
+        width: 100%;
+        gap: 30px;
+    }
+}
+@media (max-width: 1100px){
+    body{
+        max-width: 100%;
+    }
+    #latest div h1{
+        font-size: 2.5rem;
+    }
+    #latest .blog div{
+        width: 100%;
+        gap: 30px;
+    }
+}

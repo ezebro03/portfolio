@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    max-width: 100%;
+}
+#hero{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10% 5%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero h1{
+    font-size: 5rem;
+    margin-bottom: 0%;
+    color: darkblue;
+}
+#hero div .hero-btns button{
+    padding: 17px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-color: darkblue;
+    transition: transform;
+    transition-duration: 1s;
+}
+#hero div .hero-btns button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#hero div p{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3.5%;
+    width: 70%;
+}
+#hero .image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px gray;
+}
+#hero .image img{
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px){
+    body{
+        max-width: 100%;
+    }
+    #hero{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    #hero div h1{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    #hero div .para-one{
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    #hero div .hero-btns button{
+        padding: 15px 25px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    #hero .image{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1100px){
+    body{
+        max-width: 100%;
+    }
+    #hero{
+        width: 100%;
+        height: 100%;
+        margin: 150px 0;
+    }
+    #hero div h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    #hero div .para-one{
+        font-size: 2rem;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #hero div .hero-btns button{
+        padding: 20px 35px;
+        font-size: 17px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+    #hero .image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 30px;
+        width: 80%;
+    }
+}

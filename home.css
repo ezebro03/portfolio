@@ -290,7 +290,7 @@ body{
 }
 #latest .blog div{
     width: 30%;
-    height: 400px;
+    height: 450px;
     background-color: white;
     box-shadow: 1px 1px 5px gray;
     position: relative;
@@ -316,12 +316,12 @@ body{
     width: 100%;
     height: 45%;
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 #latest .blog div p{
     text-align: left;
     padding-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 15px;
     font-weight: 300px;
 }
@@ -395,7 +395,7 @@ body{
     opacity: 0.8;
 }
 
-@media (max-width: 900px){
+@media (max-width: 600px){
     body{
         max-width: 100%;
     }
@@ -457,7 +457,7 @@ body{
         margin-top: 10%;
     }
     #places .card div{
-        width: auto;
+        width: 100%;
     }
     #latest div h1{
         font-size: 1.5rem;
@@ -469,5 +469,82 @@ body{
     #latest .blog div{
         width: 100%;
         gap: 30px;
+    }
+    #ready div h1{
+        font-size: 30px;
+    }
+    #ready div p{
+        width: 87%;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1000px){
+    body{
+        max-width: 100%;
+    }
+    #hero{
+        width: 100%;
+        height: 100%;
+    }
+    #hero div h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    #hero div .para-one{
+        font-size: 1.4rem;
+    }
+    #hero div .para-two{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    #hero div .hero-btns button{
+        padding: 15px 25px;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    #hero .image{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    #about #first{
+        width: 100%;
+    }
+    #about #second{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #about #second img{
+        width: 100%;
+    }
+    #places div h1{
+        font-size: 2rem;
+    }
+    #places .card{
+        margin-top: 10%;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+    }
+    #places .card div{
+        width: 100%;
+    }
+    #latest div h1{
+        font-size: 2.5rem;
+    }
+    #latest .blog div{
+        width: 100%;
+        gap: 30px;
+    }
+    #ready div h1{
+        font-size: 30px;
+    }
+    #ready div p{
+        width: 80%;
+        font-size: 17px;
+        margin-bottom: 20px;
     }
 }

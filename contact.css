@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body{
+    max-width: 100%;
+}
+#get{
+    padding: 20px 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+#get h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#get p{
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: gray;
+}
+#get form{
+    width: 100%;
+    padding: 35px 40px;
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+#get form input{
+    display: block;
+    height: 40px;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+#get form .textbox{
+    height: 150px;
+}
+#get form .send{
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+}
+#get form .send:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    body{
+        max-width: 100%;
+    }
+    #get{
+        width: 100%;
+    }
+    #get h1{
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    #get p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1000px){
+    body{
+        max-width: 100%;
+    }
+    #get{
+        width: 100%;
+    }
+    #get h1{
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    #get p{
+        font-size: 20px;
+    }
+}

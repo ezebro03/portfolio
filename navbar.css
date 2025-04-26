@@ -65,7 +65,7 @@ h3{
     display: none;
 }
 #sidebar{
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0);
     position: fixed;
@@ -80,7 +80,7 @@ h3{
 #sidebar>div{
     background-color: white;
     height: 100%;
-    width: 80%;
+    width: 100%;
     padding: 5%;
 }
 #sidebar ul{
@@ -92,18 +92,27 @@ h3{
 #sidebar ul a{
     color: gray;
 }
+#sidebar #contact{
+    background-color: darkblue;
+    color: white;
+    margin-top: 30px;
+    width: 80%;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+}
 #sidebar #close{
     color: darkblue;
     font-size: 30px;
 }
-@media (max-width: 900px){
+@media (max-width: 600px){
     header{
         position: sticky;
         top: 0;
         z-index: 1;
     }
     nav{
-        width: auto;
+        max-width: 100%;
     }
     nav ul{
         display: none;
@@ -119,5 +128,13 @@ h3{
     }
     #sidebar{
         z-index: 1;
+    }
+}
+@media (max-width: 1000px){
+    nav{
+        max-width: 100%;
+    }
+    nav ul{
+        gap: 30px;
     }
 }

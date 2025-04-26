@@ -56,7 +56,7 @@ footer .copy hr{
     border-right: none;
     margin-bottom: 40px;
 }
-@media (max-width: 900px){
+@media (max-width: 600px){
     footer #foot{
         display: flex;
         flex-direction: column;
@@ -70,6 +70,30 @@ footer .copy hr{
     }
     footer #foot h1,h2{
         font-size: 1.5rem;
+    }
+    footer .copy{
+        width: 100%;
+    }
+}
+@media (max-width: 1000px){
+    footer #foot{
+        max-width: 100%;
+    }
+    footer #foot>div:first-child{
+        width: 100%;
+    }
+    footer #foot>div:last-child{
+        width: 100%;
+        gap: 30px;
+    }
+    footer #foot h1,h2{
+        font-size: 1rem;
+    }
+    footer #foot p{
+        font-size: 13px;
+    }
+    footer #foot div .pgh{
+        width: 75%;
     }
     footer .copy{
         width: 100%;
