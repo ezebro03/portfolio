@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+#promise{
+    background-color: white;
+    color: gray;
+    padding: 10px 15px;
+    margin: 90px;
+}
+#promise .small{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#promise h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+#promise .span{
+    color: darkblue;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+#promise .span span{
+    background-color: rgb(197, 197, 252);
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 0 5px;
+}
+#promise img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+#promise .story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#promise .story p{
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+
+/* POST SECTION */
+#post{
+    width: 100%;
+    padding: 10px 15px;
+}
+#post hr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#post .back{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#post .back div span{
+    margin-right: 20px;
+    font-size: 18px;
+}
+#post .back div span i{
+    color: rgb(92, 91, 91);
+}
+#post .back div span i:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+#post .back a{
+    text-decoration: none;
+    color: darkblue;
+}
+#post .back a:hover{
+    color: blue;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* RELATED SECTION */
+#related{
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+#related h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+}
+#related div{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+#related div .tr{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    float: right;
+    background-color: darkgreen;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#related div img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px 10px 0px 0px;
+}
+#related div p{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300px;
+}
+#related div h2{
+    color: black;
+    padding-left: 20px;
+}
+#related div p a{
+    text-decoration: none;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    body{
+        max-width: 100%;
+    }
+    #promise{
+        width: 100%;
+        margin: 0px;
+    }
+    #promise>div{
+        margin-top: 50px;
+        width: 100%;
+    }
+    #promise .small{
+        width: 100%;
+        font-size: 10px;
+    }
+    #promise h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    #promise .span{
+        font-size: 10px;
+    }
+    #promise img{
+        width: 100%;
+        height: 300px;
+    }
+    #promise .story p{
+        width: 85%;
+        font-size: 15px;
+    }
+    #post{
+        width: 100%;
+    }
+    #post hr{
+        width: 88%;
+    }
+    #post .back{
+        width: 88%;
+    }
+    #post .back div span{
+        margin-right: 5px;
+    }
+    #related{
+        margin-left: 15px;
+    }
+    #related div{
+        width: 100%;
+    }
+}
+@media (max-width: 1000px){
+    #post{
+        width: 100%;
+    }
+    #post hr{
+        width: 88%;
+    }
+    #post .back{
+        width: 88%;
+    }
+    #post .back div span{
+        margin-right: 5px;
+    }
+    #related{
+        margin-left: 15px;
+    }
+    #related div{
+        width: 50%;
+    }
+}
