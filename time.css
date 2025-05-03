@@ -144,6 +144,48 @@ body{
     color: blue;
 }
 
+@media (max-width: 1200px){
+    #post{
+        width: 100%;
+    }
+    #post hr{
+        width: 88%;
+    }
+    #post .back{
+        width: 88%;
+    }
+    #post .back div span{
+        margin-right: 5px;
+    }
+    #related{
+        margin-left: 0px;
+    }
+    #related div{
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px){
+    #post{
+        width: 100%;
+    }
+    #post hr{
+        width: 88%;
+    }
+    #post .back{
+        width: 88%;
+    }
+    #post .back div span{
+        margin-right: 5px;
+    }
+    #related{
+        margin-left: 15px;
+    }
+    #related div{
+        width: 50%;
+    }
+}
+
 @media (max-width: 600px) {
     body{
         max-width: 100%;
@@ -192,25 +234,5 @@ body{
     }
     #related div{
         width: 100%;
-    }
-}
-@media (max-width: 1000px){
-    #post{
-        width: 100%;
-    }
-    #post hr{
-        width: 88%;
-    }
-    #post .back{
-        width: 88%;
-    }
-    #post .back div span{
-        margin-right: 5px;
-    }
-    #related{
-        margin-left: 15px;
-    }
-    #related div{
-        width: 50%;
     }
 }

@@ -133,6 +133,22 @@
     margin-left: 0px;
 }
 
+@media (max-width: 1200px){
+    #skill>div h1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    #skill>div p{
+        margin-left: 0px;
+        width: 100%;
+        font-size: 17px;
+    }
+    #skill .box{
+        margin-bottom: 150px;
+        margin-top: 120px;
+    }
+}
+
 @media (max-width: 600px){
     #skill{
         max-width: 100%;

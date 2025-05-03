@@ -73,6 +73,20 @@ body{
     color: blue;
 }
 
+@media (max-width: 1200px){
+    body{
+        max-width: 100%;
+    }
+    #latest div h1{
+        font-size: 3rem;
+    }
+    #latest .blog div{
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+}
+
 @media (max-width: 600px){
     body{
         max-width: 100%;
@@ -92,7 +106,7 @@ body{
         gap: 30px;
     }
 }
-@media (max-width: 1100px){
+@media (max-width: 1000px){
     body{
         max-width: 100%;
     }
